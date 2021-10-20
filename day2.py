@@ -32,3 +32,32 @@ while i>=1:
     n=n-1
 print("您还剩余%d个金币"%n)
 
+'''
+import  random
+a=int(random.random()*20)
+n=3
+m=5
+print(a)
+while n>1:
+        for i in range(0,100):
+            b=int(input("请输入您猜的数字:"))
+            if b<a:
+                print("大了")
+                n=n-1
+                m=m-1
+            elif b>a:
+                print("小了")
+                n=n-1
+                m=m-1
+            else:
+                print("对了")
+                a = int(random.random() * 100)
+                print(a)
+                m=m+3
+                continue
+            if n<1:
+                break
+print("你剩余的金币为%d"%m)
+'''
+
+
