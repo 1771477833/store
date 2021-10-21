@@ -1,0 +1,9 @@
+判断下列变量命名是否合法
+char=ture
+Cy%ty=flose
+Oax_li=ture
+$123=flose
+fLul=ture
+3_3 =flose
+BYTE=ture
+T_T=ture
